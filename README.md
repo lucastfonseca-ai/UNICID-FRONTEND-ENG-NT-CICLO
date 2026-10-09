@@ -246,7 +246,7 @@ Adicione os nomes dos participantes e, se desejarem, seus perfis do GitHub.
 
 | Integrante | Perfil no GitHub |
 |:--|:--|
-| Nome do integrante 1 | [@usuario](https://github.com/usuario) |
+| Lucas Teodósio da Fonseca | [@usuario]([https://github.com/usuario](https://github.com/lucastfonseca-ai)) |
 | Nome do integrante 2 | [@usuario](https://github.com/usuario) |
 | Nome do integrante 3 | [@usuario](https://github.com/usuario) |
 | Nome do integrante 4 | [@usuario](https://github.com/usuario) |
