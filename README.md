@@ -248,8 +248,9 @@ Adicione os nomes dos participantes e, se desejarem, seus perfis do GitHub.
 |:--|:--|
 | Lucas Teodósio da Fonseca | [@usuario](https://github.com/lucastfonseca-ai) |
 | Leonardo Moisés Matosinhos | [@usuario](https://github.com/Leonardo-Moises) |
-| Gustavo Magalhães de Jesus | [@usuario](https://github.com/usuario) |
-| Nome do integrante 4 | [@usuario](https://github.com/usuario) |
+| Gustavo Magalhães de Jesus | [@usuario][(https://github.com/gomagalhaesj-png) |
+| Bruno Marques Pereira | [@usuario](https://github.com/BrunoMrqsz) |
+| Yago Camargo Marçal | [@usuario](https://github.com/YagoMarcal) |
 
 *Substitua os exemplos pelos nomes e perfis reais da equipe. Remova as linhas que não forem necessárias.*
 
