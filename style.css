@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url(image/fundo.jpg);
     background-repeat: no-repeat;
@@ -5,6 +9,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    max-width: 100%;
 }
 
 header {
@@ -13,11 +19,13 @@ header {
     color: rgb(255, 255, 255);
 }
 
-#titulo {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 900;
-    font-size: 80px;
-    line-height: 0.95;
+@media screen and (max-width: 1400px) {
+    #titulo {
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 900;
+        font-size: 65px;
+        line-height: 0.95;
+    }
 }
 
 #bordao {
@@ -30,6 +38,10 @@ header {
     display: flex;
     align-items: center;
     padding: 50px 30px;
+    width: 100%;
+    max-width: 100%;
+    padding: 50px 30px;
+    gap: 20px;
 }
 
 /* Logo + nome */
@@ -41,6 +53,7 @@ header {
     font-size: 35px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bold;
+    flex-shrink: 0;
 }
 
 /* Imagem da logo */
@@ -55,9 +68,15 @@ header {
 /* Links */
 .nav-links {
     display: flex;
-    gap: 60px;
-    margin-left: 45px;
-    font-size: 19px;
+    flex: 1 1 700px;
+    min-width: 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: clamp(12px, 2vw, 30px);
+    row-gap: 15px;
+    margin-left: 0;
+    font-size: clamp(14px, 1.1vw, 19px);
 }
 
 .nav-links a {
@@ -101,7 +120,7 @@ main {
 
 footer {
     text-align: center;
-    background: linear-gradient(to right, #00c41a, #00ff22);
+    background: linear-gradient(to right, #51ff00c4, #00ff95);
     padding: 30px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
