@@ -31,6 +31,18 @@ Uma experiência web que conecta o desenvolvimento Front-End à reflexão sobre 
 
 ---
 
+### 👥 Integrantes do Grupo
+
+| Integrante | Perfil no GitHub |
+|:--|:--|
+| Lucas Teodósio da Fonseca | [@usuario](https://github.com/lucastfonseca-ai) |
+| Leonardo Moisés Matosinhos | [@usuario](https://github.com/Leonardo-Moises) |
+| Gustavo Magalhães de Jesus | [@usuario][(https://github.com/gomagalhaesj-png) |
+| Bruno Marques Pereira | [@usuario](https://github.com/BrunoMrqsz) |
+| Yago Camargo Marçal | [@usuario](https://github.com/YagoMarcal) |
+
+---
+
 ## ▌01. ◈ SOBRE O PROJETO
 
 O **Ciclo** é um protótipo de página web desenvolvido por um grupo de estudantes do curso de **Engenharia de Software**, com foco no aprendizado de desenvolvimento Front-End e no tema **Sustentabilidade e Impacto Social**.
@@ -239,20 +251,6 @@ A construção de uma aplicação em grupo permite praticar não apenas habilida
 - Publicação da aplicação para acesso on-line.
 
 Essas etapas representam uma abordagem geral de desenvolvimento. A divisão real das atividades pode variar de acordo com o processo adotado pela equipe.
-
-### 👥 Integrantes
-
-Adicione os nomes dos participantes e, se desejarem, seus perfis do GitHub.
-
-| Integrante | Perfil no GitHub |
-|:--|:--|
-| Lucas Teodósio da Fonseca | [@usuario](https://github.com/lucastfonseca-ai) |
-| Leonardo Moisés Matosinhos | [@usuario](https://github.com/Leonardo-Moises) |
-| Gustavo Magalhães de Jesus | [@usuario][(https://github.com/gomagalhaesj-png) |
-| Bruno Marques Pereira | [@usuario](https://github.com/BrunoMrqsz) |
-| Yago Camargo Marçal | [@usuario](https://github.com/YagoMarcal) |
-
-*Substitua os exemplos pelos nomes e perfis reais da equipe. Remova as linhas que não forem necessárias.*
 
 ## ▌10. ◈ APRENDIZADOS E EVOLUÇÃO
 
