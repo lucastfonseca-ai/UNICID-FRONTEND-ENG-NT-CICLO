@@ -247,8 +247,8 @@ Adicione os nomes dos participantes e, se desejarem, seus perfis do GitHub.
 | Integrante | Perfil no GitHub |
 |:--|:--|
 | Lucas Teodósio da Fonseca | [@usuario](https://github.com/lucastfonseca-ai) |
-| Nome do integrante 2 | [@usuario](https://github.com/usuario) |
-| Nome do integrante 3 | [@usuario](https://github.com/usuario) |
+| Leonardo Moisés Matosinhos | [@usuario](https://github.com/Leonardo-Moises) |
+| Gustavo Magalhães de Jesus | [@usuario](https://github.com/usuario) |
 | Nome do integrante 4 | [@usuario](https://github.com/usuario) |
 
 *Substitua os exemplos pelos nomes e perfis reais da equipe. Remova as linhas que não forem necessárias.*
