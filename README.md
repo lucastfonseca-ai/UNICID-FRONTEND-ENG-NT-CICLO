@@ -37,7 +37,7 @@ Uma experiência web que conecta o desenvolvimento Front-End à reflexão sobre 
 |:--|:--|
 | Lucas Teodósio da Fonseca | [@usuario](https://github.com/lucastfonseca-ai) |
 | Leonardo Moisés Matosinhos | [@usuario](https://github.com/Leonardo-Moises) |
-| Gustavo Magalhães de Jesus | [@usuario][(https://github.com/gomagalhaesj-png) |
+| Gustavo Magalhães de Jesus | [@usuario](https://github.com/Guxtwenty21) |
 | Bruno Marques Pereira | [@usuario](https://github.com/BrunoMrqsz) |
 | Yago Camargo Marçal | [@usuario](https://github.com/YagoMarcal) |
 
