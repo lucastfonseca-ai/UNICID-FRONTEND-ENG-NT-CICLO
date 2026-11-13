@@ -21,7 +21,7 @@ Uma experiência web que conecta o desenvolvimento Front-End à reflexão sobre 
 
 ### 🌐 ACESSE O PROJETO
 
-**[ ➜ VISITAR A PÁGINA DO CICLO](unicid-frontend-eng-nt-ciclo.railway.internal)**
+**[ ➜ VISITAR A PÁGINA DO CICLO](unicid-frontend-eng-nt-ciclo-production-c63e07d0.up.railway.app)**
 
 <br>
 
