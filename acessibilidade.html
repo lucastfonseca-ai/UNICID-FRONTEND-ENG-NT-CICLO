@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça os recursos de acessibilidade do Ciclo e como usá-los.">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="image/icone.png">
+    <title>Acessibilidade | Ciclo</title>
+</head>
+<body class="home-page acessibilidade-page">
+    <div class="home-shell">
+        <nav class="navbar home-navbar" aria-label="Navegação principal">
+            <a class="logo" href="index.html" aria-label="Ciclo, página inicial"><img src="image/icone.png" alt=""><span>Ciclo</span></a>
+            <div class="nav-links">
+                <a href="index.html">Home</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a>
+                <a href="impacto.html">Impacto</a><a class="active" href="acessibilidade.html" aria-current="page">Acessibilidade</a>
+                <a href="galeria.html">Galeria</a><a href="midia.html">Mídia</a><a href="noticias.html">Notícias</a>
+                <a href="contato.html">Contato</a><a href="orcamento_hospedagem.html">Hospedagem</a>
+            </div>
+        </nav>
+
+        <main id="conteudo-principal" tabindex="-1" class="home-main acessibilidade-main">
+            <header class="acessibilidade-hero">
+                <p class="acessibilidade-eyebrow">Acesso para todas as pessoas</p>
+                <h1>Acessibilidade<br><span>é fazer parte.</span></h1>
+                <p>O Ciclo reúne recursos que ajudam pessoas com diferentes necessidades a navegar, ler e compreender o conteúdo. Conheça cada opção e experimente os controles disponíveis no topo da página.</p>
+            </header>
+
+            <div class="acessibilidade-grid" aria-label="Medidas de inclusão disponíveis">
+                <section class="acessibilidade-card" aria-labelledby="medida-acesso">
+                    <span class="acessibilidade-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="8" r="4"/><path d="M10 17h28M24 13v25m0-13-11 7m11-7 11 7M24 38l-9 7m9-7 9 7"/></svg></span>
+                    <p class="acessibilidade-kicker">01 · Navegação</p><h2 id="medida-acesso">Acessibilidade</h2>
+                    <p>Recursos de navegação por teclado, foco visível e link para pular direto ao conteúdo ajudam pessoas que usam leitores de tela ou não utilizam mouse.</p>
+                    <div class="acessibilidade-exemplo"><strong>Como usar</strong><p>Pressione <kbd>Tab</kbd> para percorrer links e controles; use <kbd>Enter</kbd> para ativar. Ao começar, “Pular para o conteúdo principal” evita repetir a navegação.</p></div>
+                </section>
+
+                <section class="acessibilidade-card" aria-labelledby="medida-texto">
+                    <span class="acessibilidade-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M7 39 19 9h10l12 30M12 27h24M17 39l3-8m11 8-3-8"/><path d="M8 9h8m-4-4v8"/></svg></span>
+                    <p class="acessibilidade-kicker">02 · Leitura</p><h2 id="medida-texto">Alteração de tamanho de texto</h2>
+                    <p>Aumente ou reduza o texto para encontrar um tamanho confortável. Isso pode facilitar a leitura para pessoas com baixa visão ou dificuldades de leitura.</p>
+                    <div class="acessibilidade-exemplo"><strong>Como usar</strong><p>Abra <b>♿ Acessibilidade</b> no topo e escolha <b>A+ Texto</b> para aumentar ou <b>A− Texto</b> para diminuir. O ajuste acompanha a navegação nesta página.</p></div>
+                </section>
+
+                <section class="acessibilidade-card" aria-labelledby="medida-contraste">
+                    <span class="acessibilidade-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="M24 5v38a19 19 0 0 1 0-38Z"/></svg></span>
+                    <p class="acessibilidade-kicker">03 · Visibilidade</p><h2 id="medida-contraste">Alto contraste</h2>
+                    <p>Reforça a diferença entre elementos e sublinha links para ajudar pessoas com baixa visão ou daltonismo a identificar informações e ações.</p>
+                    <div class="acessibilidade-exemplo"><strong>Como usar</strong><p>No painel <b>♿ Acessibilidade</b>, ative <b>Alto contraste</b>. Observe como textos, links e contornos ficam mais destacados.</p></div>
+                </section>
+
+                <section class="acessibilidade-card" aria-labelledby="medida-escuro">
+                    <span class="acessibilidade-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M38 29A17 17 0 0 1 19 10 17 17 0 1 0 38 29Z"/><path d="M33 7v8m-4-4h8M10 32v8m-4-4h8"/></svg></span>
+                    <p class="acessibilidade-kicker">04 · Conforto visual</p><h2 id="medida-escuro">Modo escuro</h2>
+                    <p>Usa uma paleta escura para reduzir o brilho da tela em ambientes pouco iluminados. A preferência fica salva neste dispositivo.</p>
+                    <div class="acessibilidade-exemplo"><strong>Como usar</strong><p>Selecione <b>☾ Modo escuro</b> no topo da página. O mesmo botão alterna de volta para o modo claro.</p></div>
+                </section>
+
+                <section class="acessibilidade-card acessibilidade-card-libras" aria-labelledby="medida-libras">
+                    <span class="acessibilidade-icon acessibilidade-icon-libras" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 25V14a3 3 0 0 1 6 0v8-13a3 3 0 0 1 6 0v13-11a3 3 0 0 1 6 0v12-8a3 3 0 0 1 6 0v12l3-4a3 3 0 0 1 5 3l-7 13H20c-4 0-7-2-9-6l-5-8a3 3 0 0 1 5-3l4 5"/></svg></span>
+                    <p class="acessibilidade-kicker">05 · Língua brasileira de sinais</p><h2 id="medida-libras">VLibras</h2>
+                    <p>O VLibras traduz conteúdos digitais para a Língua Brasileira de Sinais (Libras), apoiando pessoas surdas que se comunicam por essa língua. A tradução automática pode ter limitações.</p>
+                    <div class="acessibilidade-exemplo"><strong>Como usar</strong><p>Ative o botão flutuante do VLibras no canto da tela e selecione um trecho para ver a tradução em Libras. Atalho: <kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>L</kbd>.</p></div>
+                </section>
+            </div>
+            <p class="acessibilidade-nota">Os controles de texto, contraste e tema podem ser combinados. Use “Restaurar padrão” no painel para voltar às preferências iniciais.</p>
+        </main>
+
+        <footer class="home-footer"><p>© Desenvolvimento de Front-End | Todos os direitos autorais</p><span class="footer-leaves" aria-hidden="true">✦</span></footer>
+    </div>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+    <div class="accessibility-tools">
+        <button class="accessibility-toggle" type="button" aria-expanded="false" aria-controls="accessibility-panel" aria-keyshortcuts="Alt+Shift+A">♿ Acessibilidade</button>
+        <section class="accessibility-panel" id="accessibility-panel" aria-label="Opções de acessibilidade" hidden>
+            <h2>Acessibilidade</h2><p>Preferências salvas neste dispositivo. Atalhos: Alt+Shift+A abre este painel; Alt+Shift+L ativa Libras.</p>
+            <div class="accessibility-controls"><button type="button" data-access-action="font-down" aria-label="Diminuir tamanho do texto">A− Texto</button><button type="button" data-access-action="font-up" aria-label="Aumentar tamanho do texto">A+ Texto</button><button type="button" data-access-action="contrast" aria-pressed="false">Alto contraste</button><button type="button" data-access-action="reset" class="accessibility-reset">Restaurar padrão</button></div>
+            <p class="accessibility-status" role="status" aria-live="polite"></p>
+        </section>
+    </div>
+    <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+    <script src="./accessibility.js" defer></script>
+</body>
+</html>

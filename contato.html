@@ -1,0 +1,264 @@
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="image/icone.png">
+    <title>Contato | Ciclo</title>
+</head>
+<body class="home-page contato-page">
+    <nav class="navbar home-navbar" aria-label="Navegação principal">
+        <a class="logo" href="index.html" aria-label="Ciclo, página inicial">
+            <img src="image/icone.png" alt="">
+            <span>Ciclo</span>
+        </a>
+        <div class="nav-links">
+            <a href="index.html"><b>Home</b></a>
+            <a href="sobre.html"><b>Sobre</b></a>
+            <a href="projetos.html"><b>Projetos</b></a>
+            <a href="impacto.html"><b>Impacto</b></a>
+            <a href="acessibilidade.html"><b>Acessibilidade</b></a>
+            <a href="galeria.html"><b>Galeria</b></a>
+            <a href="midia.html"><b>Mídia</b></a>
+            <a href="noticias.html"><b>Notícias</b></a>
+            <a class="active" href="contato.html" aria-current="page"><b>Contato</b></a>
+            <a href="orcamento_hospedagem.html"><b>Hospedagem</b></a>
+        </div>
+    </nav>
+    <header>
+        <h1 id="titulo">Contato</h1>
+        <h2 id="bordao"><b>"Tranformando Escolhas em Impacto."</b></h2>
+    </header>
+    <main id="conteudo-principal" tabindex="-1" class="conteudo-contato">
+        <section class="secao-criadores" aria-labelledby="titulo-criadores">
+            <div class="criadores-marca" aria-hidden="true">C</div>
+            <p class="rotulo-secao">Quem faz o Ciclo</p>
+            <h2 id="titulo-criadores">Criadores do Ciclo</h2>
+            <p class="texto-criadores">
+                Um grupo unido por ideias sustent&aacute;veis e pelo desejo de transformar escolhas em impacto.
+            </p>
+            <ul class="lista-criadores">
+                <li>
+                    <span>Lucas Teod&oacute;sio da Fonseca</span>
+                    <small>RGM: 47274620</small>
+                </li>
+                <li>
+                    <span>Bruno Marques Pereira</span>
+                    <small>RGM: 47610484</small>
+                </li>
+                <li>
+                    <span>Gustavo Magalh&atilde;es de Jesus</span>
+                    <small>RGM: 47651750</small>
+                </li>
+                <li>
+                    <span>Leonardo Mois&eacute;s Matosinhos</span>
+                    <small>RGM: 47695323</small>
+                </li>
+                <li>
+                    <span>Yago Camargo Mar&ccedil;al</span>
+                    <small>RGM: 47473746</small>
+                </li>
+            </ul>
+        </section>
+        <section class="secao-formulario">
+            <h2>Voluntários e parceiros</h2>
+            <p class="introducao-formulario">
+                Preencha o formulário para agendar uma visita e participar das ações do Ciclo como voluntário ou parceiro.
+            </p>
+            <form id="meuForm" class="formulario" method="post" action="#" novalidate>
+                <div class="grupo-campo">
+                    <label for="nome">Nome completo</label>
+                    <input
+                        type="text"
+                        id="nome"
+                        name="nome"
+                        required
+                        minlength="3"
+                        maxlength="80"
+                        pattern="[A-Za-zÀ-ÿ]+(?: [A-Za-zÀ-ÿ]+)+"
+                        title="Informe nome e sobrenome, apenas letras."
+                        autocomplete="name"
+                        placeholder="Maria Silva"
+                        aria-describedby="dica-nome">
+                    <p class="dica" id="dica-nome">Use nome e sobrenome, somente letras e espaços.</p>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="email">E-mail</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        maxlength="120"
+                        pattern="[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}"
+                        title="Informe um e-mail válido, como nome@dominio.com."
+                        autocomplete="email"
+                        placeholder="nome@email.com"
+                        aria-describedby="dica-email">
+                    <p class="dica" id="dica-email">Exemplo: nome@email.com</p>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="telefone">Telefone</label>
+                    <input
+                        type="tel"
+                        id="telefone"
+                        name="telefone"
+                        required
+                        inputmode="tel"
+                        pattern="\([0-9]{2}\) [0-9]{4,5}-[0-9]{4}"
+                        title="Use o formato (11) 99999-9999."
+                        autocomplete="tel"
+                        placeholder="(11) 99999-9999"
+                        aria-describedby="dica-telefone">
+                    <p class="dica" id="dica-telefone">Formato: (11) 99999-9999 ou (11) 3333-4444.</p>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="data-visita">Data da visita</label>
+                    <input
+                        type="date"
+                        id="data-visita"
+                        name="data-visita"
+                        required
+                        min="2026-10-23"
+                        aria-describedby="dica-data">
+                    <p class="dica" id="dica-data">Escolha uma data a partir de hoje para a visita.</p>
+                </div>
+
+                <div class="grupo-campo">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea
+                        id="mensagem"
+                        name="mensagem"
+                        required
+                        minlength="10"
+                        maxlength="1000"
+                        rows="6"
+                        placeholder="Conte como deseja colaborar com o Ciclo."
+                        aria-describedby="dica-mensagem"></textarea>
+                    <p class="dica" id="dica-mensagem">Descreva seu interesse em pelo menos 10 caracteres.</p>
+                </div>
+
+                <button class="botao-enviar" type="submit">Enviar formulário</button>
+                <button id="limparBtn" class="botao-limpar" type="button">Limpar dados salvos</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Desenvolvimento de Front-End | Todos os direitos autorais</p>
+    </footer>
+    <script>
+        const form = document.getElementById('meuForm');
+        const nomeInput = document.getElementById('nome');
+        const emailInput = document.getElementById('email');
+        const limparBtn = document.getElementById('limparBtn');
+
+        function obterMensagemErro(id, input) {
+            let mensagem = document.getElementById(id);
+            if (!mensagem) {
+                mensagem = document.createElement('p');
+                mensagem.id = id;
+                mensagem.className = 'erro';
+                mensagem.setAttribute('role', 'alert');
+                input.closest('.grupo-campo').appendChild(mensagem);
+            }
+            return mensagem;
+        }
+
+        const erroNome = obterMensagemErro('erroNome', nomeInput);
+        const erroEmail = obterMensagemErro('erroEmail', emailInput);
+
+        window.addEventListener('DOMContentLoaded', () => {
+            const nomeSalvo = localStorage.getItem('formNome');
+            const emailSalvo = localStorage.getItem('formEmail');
+            const dadoInexistente = localStorage.getItem('dadoQueNaoExiste');
+
+            console.log('Dado inexistente recuperado:', dadoInexistente);
+            if (!dadoInexistente) {
+                console.log("Aviso: o dado 'dadoQueNaoExiste' não foi encontrado no Storage.");
+            }
+
+            if (nomeSalvo) {
+                nomeInput.value = nomeSalvo;
+                console.log('Nome recuperado:', nomeSalvo);
+            }
+
+            if (emailSalvo) {
+                emailInput.value = emailSalvo;
+                console.log('E-mail recuperado:', emailSalvo);
+            }
+        });
+
+        nomeInput.addEventListener('input', () => {
+            localStorage.setItem('formNome', nomeInput.value);
+        });
+
+        emailInput.addEventListener('input', () => {
+            localStorage.setItem('formEmail', emailInput.value);
+        });
+
+        form.addEventListener('submit', (event) => {
+            event.preventDefault();
+            let valido = true;
+            erroNome.innerText = '';
+            erroEmail.innerText = '';
+
+            if (nomeInput.value.trim() === '') {
+                erroNome.innerText = 'O nome é obrigatório.';
+                valido = false;
+            }
+
+            if (emailInput.value.trim() === '') {
+                erroEmail.innerText = 'O e-mail é obrigatório.';
+                valido = false;
+            } else if (!emailInput.value.includes('@') || !emailInput.value.includes('.')) {
+                erroEmail.innerText = 'E-mail inválido.';
+                valido = false;
+            }
+
+            if (!form.checkValidity()) {
+                form.reportValidity();
+                valido = false;
+            }
+
+            if (valido) {
+                alert('Formulário enviado com sucesso! Os dados foram mantidos no Storage.');
+                console.log('Formulário enviado. Dados mantidos no Storage.');
+            }
+        });
+
+        limparBtn.addEventListener('click', (event) => {
+            event.preventDefault();
+            localStorage.removeItem('formNome');
+            localStorage.removeItem('formEmail');
+            form.reset();
+            erroNome.innerText = '';
+            erroEmail.innerText = '';
+            alert('Dados limpos do Storage e do formulário!');
+            console.log('Dados limpos manualmente pelo usuário.');
+        });
+    </script>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+    <div class="accessibility-tools">
+        <button class="accessibility-toggle" type="button" aria-expanded="false" aria-controls="accessibility-panel" aria-keyshortcuts="Alt+Shift+A">♿ Acessibilidade</button>
+        <section class="accessibility-panel" id="accessibility-panel" aria-label="Opções de acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <p>Preferências salvas neste dispositivo. Atalhos: Alt+Shift+A abre este painel; Alt+Shift+L ativa Libras.</p>
+            <div class="accessibility-controls">
+                <button type="button" data-access-action="font-down" aria-label="Diminuir tamanho do texto">A− Texto</button>
+                <button type="button" data-access-action="font-up" aria-label="Aumentar tamanho do texto">A+ Texto</button>
+                <button type="button" data-access-action="contrast" aria-pressed="false">Alto contraste</button>
+                <button type="button" data-access-action="reset" class="accessibility-reset">Restaurar padrão</button>
+            </div>
+            <p class="accessibility-status" role="status" aria-live="polite"></p>
+        </section>
+    </div>
+    <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+    <script src="./accessibility.js" defer></script>
+</body>
+</html>
+

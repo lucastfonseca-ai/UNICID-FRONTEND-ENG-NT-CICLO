@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Hospedagem com compromisso ambiental, segurança e desempenho para o seu projeto.">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="image/icone.png">
+  <title>Orçamento de hospedagem | Ciclo</title>
+</head>
+<body class="home-page hospedagem-page">
+  <div class="home-shell hospedagem-shell">
+    <nav class="navbar home-navbar" aria-label="Navegação principal">
+      <a class="logo" href="index.html" aria-label="Ciclo, página inicial"><img src="image/icone.png" alt=""><span>Ciclo</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a><a href="impacto.html">Impacto</a><a href="acessibilidade.html">Acessibilidade</a><a href="galeria.html">Galeria</a><a href="midia.html">Mídia</a><a href="noticias.html">Notícias</a><a href="contato.html">Contato</a><a class="active" href="orcamento_hospedagem.html" aria-current="page">Orçamento</a>
+      </div>
+    </nav>
+
+    <main id="conteudo-principal" class="hospedagem-main" tabindex="-1">
+      <section class="hospedagem-hero" aria-labelledby="hospedagem-titulo">
+        <div class="hospedagem-hero-copy">
+          <p class="hospedagem-eyebrow"><span aria-hidden="true">●</span> Orçamento de hospedagem</p>
+          <h1 id="hospedagem-titulo">Hospede seu projeto com <span>sustentabilidade.</span></h1>
+          <p>Conte com uma infraestrutura pensada para oferecer desempenho, segurança e escolhas digitais mais conscientes.</p>
+          <a class="hospedagem-cta" href="#solicitar-orcamento">Solicite uma proposta <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="hospedagem-arte" role="img" aria-label="Ilustração de servidores eficientes cercados por folhas">
+          <span class="arte-glow"></span><span class="arte-folha folha-um" aria-hidden="true">✦</span><span class="arte-folha folha-dois" aria-hidden="true">✦</span>
+          <div class="servidor servidor-um" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <div class="servidor servidor-dois" aria-hidden="true"><i></i><i></i><i></i><i></i><span class="servidor-selo">♻</span></div>
+          <span class="arte-folha folha-tres" aria-hidden="true">✦</span>
+        </div>
+      </section>
+
+      <section class="hospedagem-orcamento" id="solicitar-orcamento" aria-labelledby="orcamento-titulo">
+        <div class="orcamento-form-wrap">
+          <p class="hospedagem-eyebrow hospedagem-eyebrow-claro">Vamos conversar</p>
+          <h2 id="orcamento-titulo">Solicite seu orçamento</h2>
+          <p class="orcamento-intro">Preencha os dados abaixo e conte um pouco sobre o que você precisa.</p>
+          <form class="hospedagem-form" action="#solicitar-orcamento" method="get">
+            <label for="nome">Seu nome</label>
+            <input id="nome" name="nome" type="text" autocomplete="name" placeholder="Ex.: Ana Silva" required>
+            <label for="email">Seu e-mail</label>
+            <input id="email" name="email" type="email" autocomplete="email" placeholder="voce@exemplo.com" required>
+            <label for="tipo-projeto">Tipo de projeto</label>
+            <select id="tipo-projeto" name="tipo-projeto" required>
+              <option value="" selected disabled>Selecione uma opção</option>
+              <option>Site institucional</option><option>Loja virtual</option><option>Portfólio ou blog</option><option>Aplicação web</option><option>Outro</option>
+            </select>
+            <label for="mensagem">Conte mais sobre o projeto <span>(opcional)</span></label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Tráfego esperado, recursos necessários ou dúvidas"></textarea>
+            <button class="hospedagem-submit" type="submit"><span aria-hidden="true">➤</span> Solicitar orçamento</button>
+            <p class="hospedagem-form-nota">Este formulário é uma demonstração visual. Para receber solicitações, conecte-o a um serviço de envio ou backend.</p>
+          </form>
+        </div>
+        <aside class="hospedagem-beneficios" aria-label="Benefícios da hospedagem">
+          <article class="beneficio-item"><span class="beneficio-icone" aria-hidden="true">♧</span><div><h3>Hospedagem sustentável</h3><p>Infraestrutura com atenção ao uso eficiente de recursos.</p></div></article>
+          <article class="beneficio-item"><span class="beneficio-icone" aria-hidden="true">◆</span><div><h3>Alta performance e segurança</h3><p>Proteção, estabilidade e rapidez para manter seu projeto disponível.</p></div></article>
+          <article class="beneficio-item"><span class="beneficio-icone" aria-hidden="true">⚙</span><div><h3>Suporte especializado</h3><p>Orientação para encontrar uma solução alinhada ao seu projeto.</p></div></article>
+        </aside>
+      </section>
+    </main>
+    <footer class="home-footer"><p>© Desenvolvimento de Front-End | Todos os direitos autorais</p></footer>
+  </div>
+
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <div class="accessibility-tools"><button class="accessibility-toggle" type="button" aria-expanded="false" aria-controls="accessibility-panel" aria-keyshortcuts="Alt+Shift+A">♿ Acessibilidade</button>
+    <section class="accessibility-panel" id="accessibility-panel" aria-label="Opções de acessibilidade" hidden><h2>Acessibilidade</h2><p>Preferências salvas neste dispositivo. Atalhos: Alt+Shift+A abre este painel; Alt+Shift+L ativa Libras.</p>
+      <div class="accessibility-controls"><button type="button" data-access-action="font-down" aria-label="Diminuir tamanho do texto">A− Texto</button><button type="button" data-access-action="font-up" aria-label="Aumentar tamanho do texto">A+ Texto</button><button type="button" data-access-action="contrast" aria-pressed="false">Alto contraste</button><button type="button" data-access-action="reset" class="accessibility-reset">Restaurar padrão</button></div><p class="accessibility-status" role="status" aria-live="polite"></p></section></div>
+  <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-top-wrapper"></div></div></div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script><script src="./accessibility.js" defer></script>
+</body>
+</html>

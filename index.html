@@ -1,55 +1,90 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+﻿<!DOCTYPE html>
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ciclo: descubra como reciclar, reutilizar e transformar escolhas em impacto positivo.">
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="image/icone.png">
-    <title>Ciclo</title>
+    <title>Ciclo | Transformando escolhas em impacto</title>
 </head>
-<body>
-    <nav class="navbar">
-        <div class="logo">
-            <img src="image/icone.png" alt="Logo do Site">
-            <span>Ciclo</span>
-        </div>
+<body class="home-page">
+    <div class="home-shell">
+        <nav class="navbar home-navbar" aria-label="Navegação principal">
+            <a class="logo" href="index.html" aria-label="Ciclo, página inicial">
+                <img src="image/icone.png" alt="">
+                <span>Ciclo</span>
+            </a>
+            <div class="nav-links">
+                <a class="active" href="index.html" aria-current="page">Home</a>
+                <a href="sobre.html">Sobre</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="impacto.html">Impacto</a>
+                <a href="acessibilidade.html">Acessibilidade</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="midia.html">Mídia</a>
+                <a href="noticias.html">Notícias</a>
+                <a href="contato.html">Contato</a>
+                <a href="orcamento_hospedagem.html">Hospedagem</a>
+            </div>
+        </nav>
 
-        <div class="nav-links">
-            <a href="index.html"><b>Home</b></a>
-            <a href="sobre.html"><b>Sobre</b></a>
-            <a href="projetos.html"><b>Projetos</b></a>
-            <a href="impacto.html"><b>Impacto</b></a>
-            <a href="acessibilidade.html"><b>Acessibilidade</b></a>
-            <a href="galeria.html"><b>Galeria</b></a>
-            <a href="midia.html"><b>Mídia</b></a>
-            <a href="noticias.html"><b>Notícias</b></a>
-            <a href="contato.html"><b>Contato</b></a>
-            <a href="orcamento_hospedagem.html"><b>Hospedagem</b></a>
-        </div>
-    </nav>
-    <header>
-        <h1 id="titulo">Bem-Vindos<br>ao Ciclo</h1>
-        <h2 id="bordao"><b>"Tranformando Escolhas em Impacto."</b></h2>
-    </header>
-    <main>
-        <section class="secao">
-            <img src="https://img.freepik.com/vetores-premium/icone-de-reciclagem_628407-2142.jpg?w=2000" height="40px;" width="40px;" >
-            <h1>Recicle</h1>
-            <p class="conteudo">Entenda como o descarte correto pode reduzir impactos ambientais.</p>
+        <main id="conteudo-principal" tabindex="-1" class="home-main">
+            <header class="home-hero">
+                <h1>Bem-vindos<br>ao <span>Ciclo</span></h1>
+                <p class="home-slogan">"Transformando escolhas em impacto."</p>
+                <span class="hero-accent" aria-hidden="true"></span>
+                <p class="home-intro">Juntos por um futuro mais consciente, sustentável<br class="desktop-break"> e com mais oportunidades para todos.</p>
+            </header>
+
+            <section class="home-cards" aria-label="Conheça formas de transformar suas escolhas">
+                <a class="home-card" href="sobre.html">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 48 48"><path d="M19 8 24 3l5 5M24 4v12m16 6-2 7-7-1m8-6-10 6M8 17l-7 4 1 7m-1-7 11 7m14 9 1 7-7 2m6-9-7 12"/><path d="m16 16 5 9h-9m20 0h-9l5-9m-9 17 5-9 5 9"/></svg>
+                    </span>
+                    <span class="card-copy"><strong>Recicle</strong><span>Entenda como o descarte correto pode reduzir impactos ambientais.</span></span>
+                    <span class="card-arrow" aria-hidden="true">→</span>
+                </a>
+                <a class="home-card" href="projetos.html">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 48 48"><path d="M24 42V23m0 7c-9 0-14-5-14-13 9 0 14 5 14 13Zm0-7c0-9 5-14 14-14 0 9-5 14-14 14ZM15 42h18"/></svg>
+                    </span>
+                    <span class="card-copy"><strong>Reutilize</strong><span>Descubra alternativas para prolongar a vida útil dos produtos.</span></span>
+                    <span class="card-arrow" aria-hidden="true">→</span>
+                </a>
+                <a class="home-card" href="impacto.html">
+                    <span class="card-icon" aria-hidden="true">
+                        <svg viewBox="0 0 48 48"><circle cx="24" cy="24" r="19"/><path d="m17 9 4 3-2 4-4 1-2 5 4 3 2 6 4 2 2-5 5-3-1-5 5-2m-6 20 1-6-4-4 2-4 5 1 5-4"/></svg>
+                    </span>
+                    <span class="card-copy"><strong>Transforme</strong><span>Conheça iniciativas que unem sustentabilidade e impacto social.</span></span>
+                    <span class="card-arrow" aria-hidden="true">→</span>
+                </a>
+            </section>
+        </main>
+
+        <footer class="home-footer">
+            <p>© Desenvolvimento de Front-End | Todos os direitos autorais</p>
+            <span class="footer-leaves" aria-hidden="true">✦</span>
+        </footer>
+    </div>
+    <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+    <div class="accessibility-tools">
+        <button class="accessibility-toggle" type="button" aria-expanded="false" aria-controls="accessibility-panel" aria-keyshortcuts="Alt+Shift+A">♿ Acessibilidade</button>
+        <section class="accessibility-panel" id="accessibility-panel" aria-label="Opções de acessibilidade" hidden>
+            <h2>Acessibilidade</h2>
+            <p>Preferências salvas neste dispositivo. Atalhos: Alt+Shift+A abre este painel; Alt+Shift+L ativa Libras.</p>
+            <div class="accessibility-controls">
+                <button type="button" data-access-action="font-down" aria-label="Diminuir tamanho do texto">A− Texto</button>
+                <button type="button" data-access-action="font-up" aria-label="Aumentar tamanho do texto">A+ Texto</button>
+                <button type="button" data-access-action="contrast" aria-pressed="false">Alto contraste</button>
+                <button type="button" data-access-action="reset" class="accessibility-reset">Restaurar padrão</button>
+            </div>
+            <p class="accessibility-status" role="status" aria-live="polite"></p>
         </section>
-        <section class="secao">
-            <img src="https://img.freepik.com/vetores-premium/icone-de-planta_1076610-19810.jpg" height="40px;" width="40px;" >
-            <h1>Reutilize</h1>
-            <p class="conteudo">Descubra alternativas para prolongar a vida útil dos produtos.</p>
-        </section>
-        <section class="secao">
-            <img src="https://tse1.mm.bing.net/th/id/OIP.hTIu4eaRaumBJSOJzAw6zQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" height="40px;" width="40px;" >
-            <h1>Transforme</h1>
-            <p class="conteudo">Conheça iniciativas que unem sustentabilidade e impacto social.</p>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; Desenvolvimento de Front-End | Todos os direitos autorais</p>
-    </footer>
+    </div>
+    <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+    <script src="./accessibility.js" defer></script>
 </body>
 </html>
+

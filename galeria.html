@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Conheça em imagens as iniciativas do Ciclo em sustentabilidade, reciclagem e impacto social.">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="shortcut icon" href="image/icone.png">
+  <title>Galeria | Ciclo</title>
+</head>
+<body class="galeria-page">
+  <div class="galeria-shell">
+    <nav class="navbar home-navbar galeria-navbar" aria-label="Navegação principal">
+      <a class="logo" href="index.html" aria-label="Ciclo, página inicial"><img src="image/icone.png" alt=""><span>Ciclo</span></a>
+      <div class="nav-links">
+        <a href="index.html">Home</a><a href="sobre.html">Sobre</a><a href="projetos.html">Projetos</a>
+        <a href="impacto.html">Impacto</a><a href="acessibilidade.html">Acessibilidade</a>
+        <a href="galeria.html" aria-current="page">Galeria</a><a href="midia.html">Mídia</a>
+        <a href="noticias.html">Notícias</a><a href="contato.html">Contato</a><a href="orcamento_hospedagem.html">Hospedagem</a>
+      </div>
+    </nav>
+
+    <header class="galeria-hero">
+      <div class="galeria-hero-inner">
+        <div class="galeria-hero-copy">
+          <p class="galeria-eyebrow"><span aria-hidden="true">●</span> Galeria</p>
+          <h1>Veja nossas iniciativas <span>em ação.</span></h1>
+          <p>Conheça um pouco mais sobre nossos projetos, eventos e ações sustentáveis.</p>
+        </div>
+        <div class="galeria-colagem" aria-hidden="true">
+          <img class="colagem-muda" src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&amp;fit=crop&amp;w=500&amp;q=75" alt="">
+          <img class="colagem-energia" src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&amp;fit=crop&amp;w=500&amp;q=75" alt="">
+          <img class="colagem-comunidade" src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=500&amp;q=75" alt="">
+        </div>
+      </div>
+    </header>
+
+    <main id="conteudo-principal" class="galeria-conteudo" tabindex="-1">
+      <h2 class="visually-hidden">Imagens das ações do Ciclo</h2>
+      <div class="galeria-filtros" role="group" aria-label="Filtrar imagens por tema">
+        <button type="button" class="galeria-filtro ativo" aria-pressed="true" data-filtro="todos">Todos</button>
+        <button type="button" class="galeria-filtro" aria-pressed="false" data-filtro="projetos">Projetos</button>
+        <button type="button" class="galeria-filtro" aria-pressed="false" data-filtro="eventos">Eventos</button>
+        <button type="button" class="galeria-filtro" aria-pressed="false" data-filtro="comunidade">Comunidade</button>
+        <button type="button" class="galeria-filtro" aria-pressed="false" data-filtro="natureza">Natureza</button>
+      </div>
+
+      <div class="galeria-mosaico">
+        <section class="galeria-card" data-categoria="projetos natureza" aria-labelledby="foto-plantio"><h3 id="foto-plantio" class="visually-hidden">Mudas e plantio</h3><figure><img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Mãos cuidando de uma muda em um vaso"><figcaption>O cuidado com uma muda representa escolhas que ajudam a natureza a florescer.<span>Fonte: <a href="https://unsplash.com/s/photos/planting-seedling" target="_blank" rel="noopener noreferrer">Unsplash — busca por plantio de mudas</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="projetos natureza" aria-labelledby="foto-planeta"><h3 id="foto-planeta" class="visually-hidden">Cuidado com o planeta</h3><figure><img src="https://images.unsplash.com/photo-1614730321146-b6fa6a46bcb4?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Planeta Terra visto do espaço"><figcaption>Pequenas atitudes diárias podem contribuir para um planeta mais equilibrado.<span>Fonte: <a href="https://unsplash.com/s/photos/earth-from-space" target="_blank" rel="noopener noreferrer">Unsplash — busca por planeta Terra</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="eventos comunidade" aria-labelledby="foto-voluntariado"><h3 id="foto-voluntariado" class="visually-hidden">Ação coletiva de plantio</h3><figure><img src="https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Área verde com árvores em ambiente natural"><figcaption>Ações coletivas aproximam pessoas e incentivam o cuidado com os espaços naturais.<span>Fonte: <a href="https://unsplash.com/s/photos/community-planting" target="_blank" rel="noopener noreferrer">Unsplash — busca por plantio comunitário</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="projetos natureza" aria-labelledby="foto-energia"><h3 id="foto-energia" class="visually-hidden">Energia renovável</h3><figure><img src="https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Painéis solares instalados para captar energia do sol"><figcaption>Fontes renováveis são parte importante de uma transição energética sustentável.<span>Fonte: <a href="https://unsplash.com/s/photos/solar-panels" target="_blank" rel="noopener noreferrer">Unsplash — busca por painéis solares</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="natureza" aria-labelledby="foto-floresta"><h3 id="foto-floresta" class="visually-hidden">Floresta preservada</h3><figure><img src="https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Floresta verde com árvores altas e vegetação abundante"><figcaption>Proteger florestas é proteger a biodiversidade e os recursos naturais.<span>Fonte: <a href="https://unsplash.com/s/photos/green-forest" target="_blank" rel="noopener noreferrer">Unsplash — busca por floresta verde</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="projetos eventos" aria-labelledby="foto-reciclagem"><h3 id="foto-reciclagem" class="visually-hidden">Coleta seletiva</h3><figure><img src="https://images.unsplash.com/photo-1532996122724-e3c354a0b15b?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Lixeiras coloridas para separar materiais recicláveis"><figcaption>Separar e encaminhar os resíduos corretamente facilita a reciclagem.<span>Fonte: <a href="https://unsplash.com/s/photos/recycling-bins" target="_blank" rel="noopener noreferrer">Unsplash — busca por lixeiras de reciclagem</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="eventos comunidade" aria-labelledby="foto-acao"><h3 id="foto-acao" class="visually-hidden">Comunidade em ação</h3><figure><img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Pessoas participando de uma atividade colaborativa ao ar livre"><figcaption>O envolvimento da comunidade fortalece iniciativas e amplia seu impacto social.<span>Fonte: <a href="https://unsplash.com/s/photos/community-garden" target="_blank" rel="noopener noreferrer">Unsplash — busca por horta comunitária</a></span></figcaption></figure></section>
+        <section class="galeria-card" data-categoria="projetos natureza" aria-labelledby="foto-eolica"><h3 id="foto-eolica" class="visually-hidden">Energia dos ventos</h3><figure><img src="https://images.unsplash.com/photo-1466611653911-95081537e5b7?auto=format&amp;fit=crop&amp;w=800&amp;q=78" alt="Turbinas eólicas gerando energia em uma paisagem"><figcaption>A energia dos ventos é uma alternativa renovável para atender às nossas necessidades.<span>Fonte: <a href="https://unsplash.com/s/photos/wind-turbines" target="_blank" rel="noopener noreferrer">Unsplash — busca por turbinas eólicas</a></span></figcaption></figure></section>
+      </div>
+      <p class="galeria-status" aria-live="polite"></p>
+    </main>
+
+    <footer class="home-footer"><p>© Desenvolvimento de Front-End | Todos os direitos autorais</p></footer>
+  </div>
+
+  <a class="skip-link" href="#conteudo-principal">Pular para o conteúdo principal</a>
+  <div class="accessibility-tools"><button class="accessibility-toggle" type="button" aria-expanded="false" aria-controls="accessibility-panel" aria-keyshortcuts="Alt+Shift+A">♿ Acessibilidade</button>
+    <section class="accessibility-panel" id="accessibility-panel" aria-label="Opções de acessibilidade" hidden><h2>Acessibilidade</h2><p>Preferências salvas neste dispositivo. Atalhos: Alt+Shift+A abre este painel; Alt+Shift+L ativa Libras.</p>
+      <div class="accessibility-controls"><button type="button" data-access-action="font-down" aria-label="Diminuir tamanho do texto">A− Texto</button><button type="button" data-access-action="font-up" aria-label="Aumentar tamanho do texto">A+ Texto</button><button type="button" data-access-action="contrast" aria-pressed="false">Alto contraste</button><button type="button" data-access-action="reset" class="accessibility-reset">Restaurar padrão</button></div><p class="accessibility-status" role="status" aria-live="polite"></p>
+    </section>
+  </div>
+  <div vw class="enabled"><div vw-access-button class="active"></div><div vw-plugin-wrapper><div class="vw-plugin-top-wrapper"></div></div></div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js" defer></script>
+  <script src="./accessibility.js" defer></script>
+  <script>
+    document.querySelectorAll('.galeria-filtro').forEach(button => button.addEventListener('click', () => {
+      const filtro = button.dataset.filtro;
+      document.querySelectorAll('.galeria-filtro').forEach(item => {
+        const selecionado = item === button;
+        item.classList.toggle('ativo', selecionado);
+        item.setAttribute('aria-pressed', String(selecionado));
+      });
+      let visiveis = 0;
+      document.querySelectorAll('.galeria-card').forEach(card => {
+        const mostrar = filtro === 'todos' || card.dataset.categoria.split(' ').includes(filtro);
+        card.hidden = !mostrar;
+        if (mostrar) visiveis += 1;
+      });
+      document.querySelector('.galeria-status').textContent = `${visiveis} imagens exibidas.`;
+    }));
+  </script>
+</body>
+</html>
