@@ -14,8 +14,10 @@ Uma experiência web que conecta o desenvolvimento Front-End à reflexão sobre 
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/)
 [![Railway](https://img.shields.io/badge/Deploy-Railway-8A2BE2?style=for-the-badge&logo=railway&logoColor=white)](https://railway.com/)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white)](https://elegant-rugelach-f37051.netlify.app)
 
 <br>
 
@@ -82,6 +84,7 @@ Desenvolver uma página web temática sobre Sustentabilidade e Impacto Social, a
 
 - Aplicar os conceitos de estruturação de páginas com HTML.
 - Desenvolver a apresentação visual utilizando CSS.
+- Programar a responsividade através de JavaScript.
 - Organizar informações em seções com hierarquia visual.
 - Explorar cores, tipografia, espaçamentos e outros elementos de interface.
 - Trabalhar em equipe durante o planejamento e o desenvolvimento.
@@ -104,9 +107,10 @@ A interface é construída com tecnologias fundamentais do desenvolvimento web, 
 | **Proposta** | Página web temática sobre Sustentabilidade e Impacto Social. |
 | **Estrutura** | Organização do conteúdo por meio de HTML. |
 | **Estilização** | Construção da apresentação visual utilizando CSS. |
+| **Estilização** | Deixando o site responsivo utilizando JavaScript. |
 | **Experiência visual** | Composição de elementos de interface e hierarquia de informações. |
 | **Desenvolvimento** | Trabalho colaborativo entre estudantes. |
-| **Publicação** | Protótipo disponibilizado on-line pelo Railway. |
+| **Publicação** | Protótipo disponibilizado on-line pelo Netlify. |
 
 ### ✨ Direção de desenvolvimento
 
@@ -245,7 +249,7 @@ A construção de uma aplicação em grupo permite praticar não apenas habilida
 
 - Planejamento da proposta e definição do tema.
 - Organização da estrutura da página.
-- Desenvolvimento da interface com HTML e CSS.
+- Desenvolvimento da interface com HTML, CSS e JavaScript.
 - Integração dos arquivos e dos elementos visuais.
 - Revisão do código e ajustes no protótipo.
 - Publicação da aplicação para acesso on-line.
@@ -260,6 +264,7 @@ Entre os aprendizados que o projeto permite explorar estão:
 
 - **Estruturação semântica:** organização de conteúdo em HTML.
 - **Estilização:** aplicação de propriedades e regras CSS.
+- **Programação:** aplicação de JavaScript.
 - **Design de interfaces:** construção de hierarquia visual e consistência estética.
 - **Colaboração:** desenvolvimento em equipe e integração de contribuições.
 - **Versionamento:** acompanhamento das alterações no código.
@@ -290,8 +295,8 @@ Algumas possibilidades para versões futuras são:
 **Área de estudo:** Desenvolvimento Front-End  
 **Projeto:** Ciclo  
 **Tema:** Sustentabilidade e Impacto Social  
-**Tecnologias principais:** HTML5 e CSS3  
-**Hospedagem:** Railway  
+**Tecnologias principais:** HTML5, CSS3 e JavaScript  
+**Hospedagem:** Netlify  
 **Repositório:** GitHub  
 
 Este projeto faz parte da experiência acadêmica de estudantes que estão desenvolvendo suas habilidades em tecnologia, programação e construção de interfaces web.
