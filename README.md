@@ -21,7 +21,7 @@ Uma experiência web que conecta o desenvolvimento Front-End à reflexão sobre 
 
 ### 🌐 ACESSE O PROJETO
 
-**[ ➜ VISITAR A PÁGINA DO CICLO](unicid-frontend-eng-nt-ciclo-production-c63e07d0.up.railway.app)**
+**[ ➜ VISITAR A PÁGINA DO CICLO](https://projeto-ciclo.netlify.app)**
 
 <br>
 
@@ -162,7 +162,7 @@ O protótipo Ciclo está publicado no Railway.
 
 Conheça a proposta do projeto e sua aplicação prática no desenvolvimento Front-End.
 
-**[ ABRIR O CICLO ↗](https://unicid-frontend-eng-nt-ciclo-production.up.railway.app/)**
+**[ ABRIR O CICLO ↗](https://projeto-ciclo.netlify.app)**
 
 </div>
 
